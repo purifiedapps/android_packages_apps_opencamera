@@ -1,0 +1,12 @@
+android_app_import {
+	name: "opencamera",
+	owner: "Mark Harman",
+	apk: "opencamera.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Camera2","GCamGOPrebuilt", "GCamGOPrebuilt-V2", "Snap"],
+}
